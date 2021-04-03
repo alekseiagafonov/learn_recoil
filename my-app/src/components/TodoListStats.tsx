@@ -1,6 +1,6 @@
 import React from "react";
 import { useRecoilValue } from "recoil";
-import { todoListStatsState } from "../selectors";
+import { todoListStatsState } from "./selectors";
 
 export default function TodoListStats() {
   const {
